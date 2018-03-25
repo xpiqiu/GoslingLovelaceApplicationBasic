@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xpq.part1.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ada Lovelace"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:layout_width="198dp"
+            android:layout_height="186dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/b" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When she was a teenager, her mathematical talents led her to a long working relationship and friendship with fellow British mathematician Charles Babbage, also known as the father of computers, and in particular, Babbage's work on the Analytical Engine. Lovelace first met him in June 1833, through their mutual friend, and her private tutor, Mary Somerville.
+Between 1842 and 1843, Ada translated an article by Italian military engineer Luigi Menabrea on the engine, which she supplemented with an elaborate set of notes, simply called Notes. These notes contain what many consider to be the first computer program—that is, an algorithm designed to be carried out by a machine. Lovelace's notes are important in the early history of computers.On 16 January 1816 Ada's mother, Annabella, at Byron's behest, left for her parents' home at Kirkby Mallory, taking one-month-old Ada with her.[10] Although English law at the time gave fathers full custody of their children in cases of separation, Byron made no attempt to claim his parental rights[12] but did request that his sister keep him informed of Ada's welfare.[13] On 21 April Byron signed the Deed of Separation, although very reluctantly, and left England for good a few days later.[14] Aside from an acrimonious separation, Annabella continually made allegations about Byron's immoral behaviour throughout her life.[15]
+
+This set of events made Ada famous in Victorian society. Byron did not have a relationship with his daughter, and never saw her again. He died in 1824 when she was eight years old. Her mother was the only significant parental figure in her life.[16] Ada was not shown the family portrait of her father (covered in green shroud) until her twentieth birthday.[17] Her mother became Baroness Wentworth in her own right in 1856. "/>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>
